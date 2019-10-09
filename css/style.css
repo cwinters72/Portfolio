@@ -53,7 +53,8 @@ body {
 }
 
 .aboutImage {
-    width: 100%;
+    width: 65%;
+    margin-bottom: 10px;
 }
 
 .skillsSection {
@@ -97,6 +98,50 @@ body {
     content: "%";
 }
 
+.resumeSection .container ul {
+    margin-bottom: 0;
+}
+
+
 section {
     padding: 100px 0;
+}
+
+#navigation {
+    background-color: rgb(150, 14, 84);
+    padding: 20px 10px;
+    z-index: 100;
+
+}
+
+#navigation li {
+    padding: 0 10px;
+}
+
+
+#navigation li a {
+    color: #FFF;
+}
+
+#school {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    color: #FFF;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    font-size:1.7em;
+    width:2.5em;
+    height:2.5em;
+    line-height:2em;
+    text-align:center;
+    border-radius:50%;
+    
+    vertical-align:middle;
+    margin-right:1em;
+    color:white;
+}
+.navbar-brand:hover {
+    color: #FFF;
 }
