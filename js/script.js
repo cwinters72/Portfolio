@@ -31,7 +31,7 @@ $(document).ready(function() {
         }
     });
 
-    
+     
 
     var skillsTopOffset = $(".skillsSection").offset().top;
     
@@ -49,8 +49,23 @@ $(document).ready(function() {
                 }
             });
         }
+    }); 
+
+    var $nav = $("#navigation");
+    var navBottomOffset = $("#navigation").offset().bottom;
+    $(document).scroll(function() {
+        if(window.pageYOffset > skillsTopOffset) {
+           
+           console.log("fire")
+           $nav.toggleClass("alt-Nav"); 
+        }
+        
+        
+        
+    
     });
 });
+
 
 
 

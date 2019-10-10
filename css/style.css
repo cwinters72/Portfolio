@@ -5,6 +5,10 @@ body {
     letter-spacing: 1px;
 }
 
+section {
+    padding: 75px 0;
+}
+
 .pg-arrow {
     padding: 0 20px;
     color: grey;
@@ -55,6 +59,8 @@ body {
 .aboutImage {
     width: 65%;
     margin-bottom: 10px;
+    box-shadow: 0 0 8px 8px white inset;
+
 }
 
 .skillsSection {
@@ -88,7 +94,7 @@ body {
 }
 
 .chart .percent {
-    color: #000;
+    color: #f78fb3;
     line-height: 152px;
     display: inline-block;
     font-size: 35px;
@@ -102,10 +108,29 @@ body {
     margin-bottom: 0;
 }
 
-
-section {
-    padding: 100px 0;
+.navbar-brand {
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 10%;
+    font-size:1em;
+    width:2.2em;
+    height:2.2em;
+    line-height:1.2em;
+    text-align:center;
+    vertical-align:middle;
+    margin-right:1em;
 }
+
+.navbar-brand:hover {
+    color: #f78fb3;
+}
+
+.alt-nav {
+    color: rgb(150, 14, 84);
+    background-color: #FFF;
+}
+
+
 
 #navigation {
     background-color: rgb(150, 14, 84);
@@ -119,27 +144,15 @@ section {
 }
 
 
-#navigation .mr-auto li a {
+#navigation li a {
     color: #FFF;
+}
+
+#navigation li a:hover {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #school {
     margin-bottom: 20px;
 }
 
-.navbar-brand {
-    color: #FFF;
-    border: 3px solid #FFF;
-    border-radius: 50%;
-    font-size:1.7em;
-    width:2.5em;
-    height:2.5em;
-    line-height:2em;
-    text-align:center;
-    vertical-align:middle;
-    margin-right:1em;
-}
-
-.navbar-brand:hover {
-    color: #FFF;
-}
