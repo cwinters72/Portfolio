@@ -63,13 +63,17 @@ section {
 
 }
 
-.skillsSection {
+.altSection {
     background-color: rgb(150, 14, 84);
     color: #FFF;
 }
 
-.resumeHeader span{
+.sectionHeader span{
     border-bottom: rgb(150, 14, 84) 3px solid;
+}
+
+.altSectionHeader span {
+    border-bottom: #fff 3px solid;
 }
 
 .skill {
