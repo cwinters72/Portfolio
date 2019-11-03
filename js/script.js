@@ -65,6 +65,14 @@ $(document).ready(function() {
     
     });
 
+    $(".fancybox-media").fancybox({
+        openEffect : "none",
+        closeEffect : "none",
+        helpers : {
+            media : {}
+        }
+    });
+
     $("[data-fancybox").fancybox();
 
     $(".items").isotope({
@@ -93,6 +101,14 @@ $(document).ready(function() {
         });
         return false;
     });
+
+    $("#navigation #smoothScroll li a").click(function(e) {
+        e.preventDefault();
+
+        var targetElement = $(this).attr("href");
+        var targetPosition = $(targetElement).offset().top;
+        $("html, body").animate({scrollTop: targetPosition - 50 }, "slow");
+    });   
 });
 
 
