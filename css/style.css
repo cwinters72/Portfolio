@@ -112,6 +112,10 @@ section {
     margin-bottom: 0;
 }
 
+.serviceLearningSection .container ul {
+    margin-bottom: 0;
+}
+
 .navbar-brand {
     color: #FFF;
     border: 2px solid #FFF;
